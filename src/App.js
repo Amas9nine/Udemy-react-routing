@@ -11,7 +11,6 @@ function App() {
       .then(response => response.json())
       .then(json => setTodo(json))
   }, [])
-  console.log(todo)
 
   return (
     <div className="App">
